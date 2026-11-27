@@ -1,0 +1,17 @@
+Feature,Logistic_Regression_SHAP,Random_Forest_SHAP,XGBoost_SHAP,Logistic_Regression_SHAP_Rank,Random_Forest_SHAP_Rank,XGBoost_SHAP_Rank
+contract_monthly,0.8778,0.0775,0.5333,1,1,1
+internet_service_fiber,0.7967,0.0239,0.2203,2,7,8
+tenure_months,0.7356,0.0369,0.2978,3,6,4
+failed_payments_90d,0.52,0.0425,0.4119,4,2,2
+has_failed_payments,0.3558,0.0416,0.1409,5,4,9
+internet_service_none,0.3296,0.005,0.0031,6,13,14
+total_charges_usd,0.2397,0.0201,0.2228,7,8,5
+total_charges_per_tenure,0.1572,0.0388,0.2227,8,5,6
+security_service,0.1158,0.005,0.1129,9,13,10
+fiber_high_charge,0.1154,0.0027,0.0,10,15,15
+streaming_service,0.0995,0.0102,0.0398,11,11,13
+charges_velocity_ratio,0.0479,0.0197,0.3198,12,9,3
+is_zero_tenure,0.0437,0.0005,0.0,13,16,15
+monthly_charges_usd,0.0244,0.0422,0.2226,14,3,7
+service_count,0.0236,0.0118,0.0995,15,10,11
+contract_two_year,0.0195,0.0094,0.045,16,12,12

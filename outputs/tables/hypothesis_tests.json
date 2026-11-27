@@ -1,0 +1,26 @@
+{
+  "contract_vs_churn": {
+    "chi2": 11.586689995067443,
+    "p_value": 0.0030477703224199423,
+    "significant_at_0.05": true,
+    "key_finding": "Month-to-month contracts churn at 32.4%, compared to ~12% for Annual and Two-Year contracts."
+  },
+  "internet_service_vs_churn": {
+    "chi2": 4.038744938260408,
+    "p_value": 0.1327387366045,
+    "significant_at_0.05": false,
+    "key_finding": "DSL users exhibit highest churn (27.1%) while Fiber users show 13.3% churn in synthetic sample."
+  },
+  "failed_payments_vs_churn": {
+    "chi2": 7.169592191171725,
+    "p_value": 0.027742323835786772,
+    "significant_at_0.05": true,
+    "key_finding": "Failed payment count scales churn risk monotonically from 8.6% (0 fails) to 26.9% (2 fails)."
+  },
+  "service_count_vs_churn": {
+    "chi2": 2.588624627334304,
+    "p_value": 0.274086284929052,
+    "significant_at_0.05": false,
+    "key_finding": "Customers with 1 add-on service have 22.9% churn, compared to 11.4% for zero add-ons."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "validation": {
+    "n": 64,
+    "churn_count": 9,
+    "brier_score": 0.11901342193017028
+  },
+  "test": {
+    "n": 64,
+    "churn_count": 8,
+    "brier_score": 0.09547263634594948
+  }
+}

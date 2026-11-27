@@ -1,0 +1,18 @@
+{
+  "validation": {
+    "n": 64,
+    "churn_count": 9,
+    "churn_rate": 0.140625,
+    "brier_score": 0.11901342193017028,
+    "constant_base_brier_score": 0.12390231427356786,
+    "brier_skill_score": 0.03945763542046343
+  },
+  "test": {
+    "n": 64,
+    "churn_count": 8,
+    "churn_rate": 0.125,
+    "brier_score": 0.09547263634594948,
+    "constant_base_brier_score": 0.11439844829418643,
+    "brier_skill_score": 0.16543766310887364
+  }
+}

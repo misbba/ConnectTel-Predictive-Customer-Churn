@@ -1,0 +1,4 @@
+Evaluation_Phase,Model,Threshold,Test_ROC_AUC,Test_PR_AUC,Test_Precision,Test_Recall,Test_F1,Test_Brier_Score,TP,FP,FN,TN
+Historical Baseline,ContractGroupBaseline (Prior),N/A,0.6127,0.1764,0.0,0.0,0.0,0.09547263634594948,0,0,8,56
+Final Champion Evaluation,"Logistic Regression (C=10.0, Balanced)",0.5,0.7679,0.4708,0.24,0.75,0.3636,0.209454,6,19,2,37
+Final Champion Evaluation,"Logistic Regression (C=10.0, Balanced)",0.55,0.7679,0.4708,0.25,0.75,0.375,0.209454,6,18,2,38

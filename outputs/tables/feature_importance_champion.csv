@@ -1,0 +1,17 @@
+Feature,Coefficient,Odds_Ratio,Mean_Abs_SHAP,Effect_Direction,Domain_Interpretation
+contract_monthly,1.9512,7.0373,0.8778,Risk Factor (Increases Churn),Monthly contract increases churn odds over 7x compared to long-term plans.
+internet_service_fiber,-1.7357,0.1763,0.7967,Protective (Decreases Churn),Fiber service is protective (lower churn) in this synthetic cohort.
+tenure_months,-0.8108,0.4445,0.7356,Protective (Decreases Churn),Longer subscriber tenure significantly lowers churn risk.
+failed_payments_90d,0.5615,1.7532,0.52,Risk Factor (Increases Churn),Payment delinquency escalates churn probability rapidly.
+has_failed_payments,0.7585,2.1351,0.3558,Risk Factor (Increases Churn),Payment delinquency escalates churn probability rapidly.
+internet_service_none,-0.763,0.4662,0.3296,Protective (Decreases Churn),Secondary feature contribution.
+total_charges_usd,0.302,1.3526,0.2397,Risk Factor (Increases Churn),Secondary feature contribution.
+total_charges_per_tenure,0.1616,1.1754,0.1572,Risk Factor (Increases Churn),Higher monthly billing velocity moderately increases churn.
+security_service,-0.2353,0.7903,0.1158,Protective (Decreases Churn),"Security add-on builds product stickiness, decreasing churn risk."
+fiber_high_charge,0.4564,1.5783,0.1154,Risk Factor (Increases Churn),Fiber customers paying premium fees (> $70) exhibit elevated cancellation risk.
+streaming_service,0.1993,1.2205,0.0995,Risk Factor (Increases Churn),Secondary feature contribution.
+charges_velocity_ratio,-0.0533,0.9481,0.0479,Protective (Decreases Churn),Secondary feature contribution.
+is_zero_tenure,-2.7996,0.0608,0.0437,Protective (Decreases Churn),Secondary feature contribution.
+monthly_charges_usd,-0.0245,0.9758,0.0244,Protective (Decreases Churn),Secondary feature contribution.
+service_count,-0.0298,0.9706,0.0236,Protective (Decreases Churn),Secondary feature contribution.
+contract_two_year,-0.0434,0.9576,0.0195,Protective (Decreases Churn),Secondary feature contribution.
