@@ -6,6 +6,19 @@ This project predicts 30-day subscriber churn risk (`churn_30d`) on the official
 
 ---
 
+## Live Application
+
+The ConnectTel Churn Risk Simulator and Decision Support System is deployed and publicly accessible online:
+
+- 🚀 **Live Demo:** [https://connecttel-predictive-customer-churn-ak9pohijazquhnylhjga3c.streamlit.app/](https://connecttel-predictive-customer-churn-ak9pohijazquhnylhjga3c.streamlit.app/)
+- 💻 **GitHub Repository:** [https://github.com/misbba/ConnectTel-Predictive-Customer-Churn](https://github.com/misbba/ConnectTel-Predictive-Customer-Churn)
+
+👉 **Try ConnectTel Live:** [Launch the Application](https://connecttel-predictive-customer-churn-ak9pohijazquhnylhjga3c.streamlit.app/)
+
+> **Interactive Simulator Highlights:** Load instant customer scenarios (High-Risk Delinquent, Loyal Multi-Year, Brand New Signup, or Annual with Payment Issue) or dynamically adjust contract terms, monthly fees, and service add-ons to simulate churn probabilities, risk tiers, and tailored retention playbooks in real time.
+
+---
+
 ## 1. Project Overview & Problem Statement
 
 Subscription-based telecommunications providers face recurring revenue erosion when customers cancel service unexpectedly. Waiting until a subscriber initiates cancellation leaves little opportunity for intervention.
@@ -163,7 +176,7 @@ Built in [`app.py`](app.py) atop [`src/inference.py`](src/inference.py):
 
 ## 11. Installation & Local Execution
 
-*(Note: Run locally on Python 3.10+; the application is verified for local execution and has not yet been deployed to cloud hosting.)*
+*(Note: You can access the live application directly on [Streamlit Community Cloud](https://connecttel-predictive-customer-churn-ak9pohijazquhnylhjga3c.streamlit.app/) or run locally on Python 3.10+ using the instructions below.)*
 
 1. **Clone the repository and navigate to the folder:**
    ```bash
